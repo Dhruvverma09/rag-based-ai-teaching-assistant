@@ -1,0 +1,2225 @@
+{
+    "chunks": [
+        {
+            "start": 0.0,
+            "end": 1.8,
+            "text": " Hello everyone, hope you are doing well."
+        },
+        {
+            "start": 1.8,
+            "end": 6.08,
+            "text": " Welcome to Data Analytics full course 2026 and this is the lecture 6."
+        },
+        {
+            "start": 6.08,
+            "end": 9.5,
+            "text": " In this lecture we are going to see condition and conjections."
+        },
+        {
+            "start": 9.5,
+            "end": 13.040000000000001,
+            "text": " So if you don't know about conditions and conjections, this lecture is very important"
+        },
+        {
+            "start": 13.040000000000001,
+            "end": 14.040000000000001,
+            "text": " for you guys."
+        },
+        {
+            "start": 14.040000000000001,
+            "end": 18.34,
+            "text": " Here there will be total 6 functions, 3 will be conditions and 3 will be conjections."
+        },
+        {
+            "start": 18.34,
+            "end": 24.38,
+            "text": " And in conjections there will be 3 functions, first is AND, second is OR and third is NOT."
+        },
+        {
+            "start": 24.38,
+            "end": 27.38,
+            "text": " So without wasting time, let's get started."
+        },
+        {
+            "start": 27.38,
+            "end": 31.259999999999998,
+            "text": " Whenever you are going to learn, all the sheets and PPD are given in today's description,"
+        },
+        {
+            "start": 31.259999999999998,
+            "end": 33.58,
+            "text": " you can go there and download and practice."
+        },
+        {
+            "start": 33.58,
+            "end": 36.94,
+            "text": " So here we are going to see conditions and conjections."
+        },
+        {
+            "start": 36.94,
+            "end": 39.66,
+            "text": " Now what is the conditions and conjections in Excel?"
+        },
+        {
+            "start": 39.66,
+            "end": 40.66,
+            "text": " Let's understand that."
+        },
+        {
+            "start": 40.66,
+            "end": 43.58,
+            "text": " So here are few functions that I have written."
+        },
+        {
+            "start": 43.58,
+            "end": 49.68,
+            "text": " First is IF, then IFS, AND, OR, NOT, IFERROR."
+        },
+        {
+            "start": 49.68,
+            "end": 52.379999999999995,
+            "text": " Now if you see, it's very simple."
+        },
+        {
+            "start": 52.379999999999995,
+            "end": 56.26,
+            "text": " Conditions are IF, IFS and this one IF."
+        },
+        {
+            "start": 56.26,
+            "end": 62.019999999999996,
+            "text": " And this is the combination, this IF and IFERROR is a combination IF and ERROR."
+        },
+        {
+            "start": 62.019999999999996,
+            "end": 68.46,
+            "text": " So this is called as again condition, I am calling it as a condition and this AND and"
+        },
+        {
+            "start": 68.46,
+            "end": 70.9,
+            "text": " OR and NOT, these are conjections."
+        },
+        {
+            "start": 70.9,
+            "end": 76.58,
+            "text": " If you are from engineering background, you must know about the gate, AND gate, OR gate,"
+        },
+        {
+            "start": 76.58,
+            "end": 81.52,
+            "text": " NOT gate, these kind of things are there that we are going to learn in this lecture."
+        },
+        {
+            "start": 81.52,
+            "end": 85.08,
+            "text": " So these are the conditions and conjections in Excel."
+        },
+        {
+            "start": 85.89999999999999,
+            "end": 89.52,
+            "text": " Now let's jump to our first function which is IF."
+        },
+        {
+            "start": 89.52,
+            "end": 90.52,
+            "text": " Now what is IF?"
+        },
+        {
+            "start": 90.52,
+            "end": 92.92,
+            "text": " IF is very basic conditioning checking."
+        },
+        {
+            "start": 92.92,
+            "end": 98.72,
+            "text": " We will check some condition, we can see what is the IF, check condition and returns one"
+        },
+        {
+            "start": 98.72,
+            "end": 102.92,
+            "text": " value if it is true or a false."
+        },
+        {
+            "start": 102.92,
+            "end": 107.52,
+            "text": " So we will write some formula where we have the syntax you can see here."
+        },
+        {
+            "start": 107.52,
+            "end": 113.88,
+            "text": " If we will put one condition over here, this is nothing, logical test means condition."
+        },
+        {
+            "start": 114.67999999999999,
+            "end": 120.5,
+            "text": " We will put this condition here and value will check, if the value is true, then it"
+        },
+        {
+            "start": 120.5,
+            "end": 123.36,
+            "text": " will rewrite true."
+        },
+        {
+            "start": 123.36,
+            "end": 128.96,
+            "text": " If the value is false, then it will write false."
+        },
+        {
+            "start": 128.96,
+            "end": 136.2,
+            "text": " And true and false, instead of true and false, we can use our customized text also."
+        },
+        {
+            "start": 136.2,
+            "end": 142.2,
+            "text": " For example, in true I want to write pass, in false I want to write fail."
+        },
+        {
+            "start": 142.23999999999998,
+            "end": 144.72,
+            "text": " So I can write these things."
+        },
+        {
+            "start": 144.72,
+            "end": 149.44,
+            "text": " One more thing that if you want to write something here, for example, in true I want to write"
+        },
+        {
+            "start": 149.44,
+            "end": 154.88,
+            "text": " pass, then you can write pass in double inverted comma and if you want instead of fails you"
+        },
+        {
+            "start": 154.88,
+            "end": 161.51999999999998,
+            "text": " want to write fail, then you can write fail over here in double inverted comma."
+        },
+        {
+            "start": 161.51999999999998,
+            "end": 164.38,
+            "text": " It will print according to your text."
+        },
+        {
+            "start": 164.38,
+            "end": 167.67999999999998,
+            "text": " Now let's understand how we can use this on Excel."
+        },
+        {
+            "start": 167.67999999999998,
+            "end": 172.14,
+            "text": " Before that I am going to tell you this example on PPD, then we are going to go to Excel."
+        },
+        {
+            "start": 173.07999999999998,
+            "end": 178.01999999999998,
+            "text": " So this is first is if that we have used this if formula, then there will be a bracket."
+        },
+        {
+            "start": 178.01999999999998,
+            "end": 181.45999999999998,
+            "text": " Then as I told you, this will be a condition that we are putting."
+        },
+        {
+            "start": 181.45999999999998,
+            "end": 186.33999999999997,
+            "text": " So here you can see a2 must be greater than or equal to 40."
+        },
+        {
+            "start": 186.33999999999997,
+            "end": 187.82,
+            "text": " So this is our condition."
+        },
+        {
+            "start": 187.82,
+            "end": 191.01999999999998,
+            "text": " If it is getting satisfied, then first value will be true."
+        },
+        {
+            "start": 191.01999999999998,
+            "end": 192.94,
+            "text": " So it will print pass."
+        },
+        {
+            "start": 192.94,
+            "end": 197.57999999999998,
+            "text": " If the value is not greater than 40, then it will print fail."
+        },
+        {
+            "start": 197.57999999999998,
+            "end": 201.06,
+            "text": " Whatever fail we have written here, it will print fail."
+        },
+        {
+            "start": 201.06,
+            "end": 207.3,
+            "text": " So if for example, if the value is 55, which is shown here, it will write pass and if the"
+        },
+        {
+            "start": 207.3,
+            "end": 217.5,
+            "text": " value is 32, it will write fail because 55 is greater than 40 and 32 is lesser than 40."
+        },
+        {
+            "start": 217.5,
+            "end": 220.3,
+            "text": " So this is our condition that needs to be satisfied."
+        },
+        {
+            "start": 220.3,
+            "end": 223.5,
+            "text": " Now we are going to see this thing on Excel sheet."
+        },
+        {
+            "start": 223.5,
+            "end": 228.78,
+            "text": " So here we have data which is student ID, name, department and exam score and result."
+        },
+        {
+            "start": 228.78,
+            "end": 234.46,
+            "text": " And the question is create a column result which is result and the condition is pass"
+        },
+        {
+            "start": 234.46,
+            "end": 241.98,
+            "text": " if the exam score is greater than 40 and fail if it is lesser than 40."
+        },
+        {
+            "start": 241.98,
+            "end": 245.94,
+            "text": " So we will create a formula, we will write the formula over here."
+        },
+        {
+            "start": 245.94,
+            "end": 246.94,
+            "text": " For that what we will enter?"
+        },
+        {
+            "start": 246.94,
+            "end": 254.58,
+            "text": " We will enter is equals to if."
+        },
+        {
+            "start": 254.58,
+            "end": 260.66,
+            "text": " And in logical test, we will put our condition which is if exam score which is this cell,"
+        },
+        {
+            "start": 260.66,
+            "end": 265.86,
+            "text": " I am selecting this, if it is equal to or greater than, so I am writing is greater than"
+        },
+        {
+            "start": 265.86,
+            "end": 283.86,
+            "text": " or equal to 40, comma, here it should be pass, or it will be a fail percent."
+        },
+        {
+            "start": 283.86,
+            "end": 288.40000000000003,
+            "text": " The result will be fail."
+        },
+        {
+            "start": 288.40000000000003,
+            "end": 292.6,
+            "text": " Like this you can write your formula and complete the bracket."
+        },
+        {
+            "start": 292.6,
+            "end": 295.38,
+            "text": " And if you put this, it will show you pass."
+        },
+        {
+            "start": 295.38,
+            "end": 302.14,
+            "text": " Like this simply you can drop down your formula and it will show only one person failed which"
+        },
+        {
+            "start": 302.14,
+            "end": 308.46000000000004,
+            "text": " is 104 Neha having 38 marks which has failed this exam."
+        },
+        {
+            "start": 308.46000000000004,
+            "end": 312.78000000000003,
+            "text": " So according to this, you can write your if formula in this thing."
+        },
+        {
+            "start": 312.78,
+            "end": 318.41999999999996,
+            "text": " If I have already covered, so I am just giving you a brief because other conjunctions and"
+        },
+        {
+            "start": 318.41999999999996,
+            "end": 325.58,
+            "text": " the multiple condition thing that we are going to learn is totally based on the if function."
+        },
+        {
+            "start": 325.58,
+            "end": 330.29999999999995,
+            "text": " So like this you can do your if function, you can write the if function."
+        },
+        {
+            "start": 330.29999999999995,
+            "end": 336.5,
+            "text": " If I tell you again, then simply what you need to do, you need to just put your formula"
+        },
+        {
+            "start": 336.5,
+            "end": 344.1,
+            "text": " here is equals to and you write if, give open bracket, then you can select your logical"
+        },
+        {
+            "start": 344.1,
+            "end": 345.1,
+            "text": " test."
+        },
+        {
+            "start": 345.1,
+            "end": 355.82,
+            "text": " Logical test is saying if your exam score is greater than or equal to 40, then please"
+        },
+        {
+            "start": 355.82,
+            "end": 360.74,
+            "text": " write pass."
+        },
+        {
+            "start": 360.74,
+            "end": 365.38,
+            "text": " If it is not greater than or equal to 40, then write fail."
+        },
+        {
+            "start": 365.46,
+            "end": 372.54,
+            "text": " So I am writing fail over here, bracket complete and this is your result."
+        },
+        {
+            "start": 372.54,
+            "end": 377.68,
+            "text": " And you can simply drag it down and it will show you your result."
+        },
+        {
+            "start": 377.68,
+            "end": 380.18,
+            "text": " So in this way you can write your if function."
+        },
+        {
+            "start": 380.18,
+            "end": 385.78,
+            "text": " Simply what you need to do, just write if bracket open, then you write a logical test"
+        },
+        {
+            "start": 385.78,
+            "end": 394.61999999999995,
+            "text": " which was our if A2 is greater than 40, greater than equal to 40, write pass in double inverted"
+        },
+        {
+            "start": 394.61999999999995,
+            "end": 400.53999999999996,
+            "text": " comma or you can write fail double inverted comma and your bracket complete."
+        },
+        {
+            "start": 400.53999999999996,
+            "end": 406.2,
+            "text": " You can see same formula we have written here and this will be the output."
+        },
+        {
+            "start": 406.2,
+            "end": 407.61999999999995,
+            "text": " So this is the use of if."
+        },
+        {
+            "start": 407.61999999999995,
+            "end": 409.41999999999996,
+            "text": " Now let us go to ifs."
+        },
+        {
+            "start": 409.41999999999996,
+            "end": 411.41999999999996,
+            "text": " Now if and ifs is same."
+        },
+        {
+            "start": 411.41999999999996,
+            "end": 415.35999999999996,
+            "text": " In if you will have one condition, in ifs you have multiple condition."
+        },
+        {
+            "start": 415.94,
+            "end": 421.76,
+            "text": " If you remember in first of our function which is if, there was a logical condition here"
+        },
+        {
+            "start": 421.76,
+            "end": 433.04,
+            "text": " and it was like A2 should be greater than equal to 40, then write pass."
+        },
+        {
+            "start": 433.04,
+            "end": 436.84000000000003,
+            "text": " Same thing, but here what we will do, we will add one more condition."
+        },
+        {
+            "start": 436.84,
+            "end": 450.64,
+            "text": " condition will be like and A2 should be greater than or equal to 30, then you write fail."
+        },
+        {
+            "start": 450.64,
+            "end": 452.71999999999997,
+            "text": " Whatever it is like I am giving example."
+        },
+        {
+            "start": 452.71999999999997,
+            "end": 454.47999999999996,
+            "text": " Similar example I have written here."
+        },
+        {
+            "start": 454.47999999999996,
+            "end": 458.94,
+            "text": " So whenever you will get the grades, this formula will be used."
+        },
+        {
+            "start": 458.94,
+            "end": 466.2,
+            "text": " So here you can see that A2 if it is greater than or equal to 80, then write A."
+        },
+        {
+            "start": 466.2,
+            "end": 469.92,
+            "text": " If A2 is greater than or equal to 60, write B."
+        },
+        {
+            "start": 469.92,
+            "end": 473.0,
+            "text": " If A2 is greater than or equal to 40, write C."
+        },
+        {
+            "start": 473.0,
+            "end": 477.14,
+            "text": " If A2 is lesser than 40, then write fail."
+        },
+        {
+            "start": 477.14,
+            "end": 480.88,
+            "text": " Now you will say for example I have 90."
+        },
+        {
+            "start": 480.88,
+            "end": 481.88,
+            "text": " I have 90."
+        },
+        {
+            "start": 481.88,
+            "end": 485.08,
+            "text": " So 90 is greater than or equal to 80."
+        },
+        {
+            "start": 485.08,
+            "end": 486.71999999999997,
+            "text": " This condition is getting satisfied."
+        },
+        {
+            "start": 486.71999999999997,
+            "end": 488.36,
+            "text": " Is greater than 60?"
+        },
+        {
+            "start": 488.36,
+            "end": 490.4,
+            "text": " Yes, it is greater than 40."
+        },
+        {
+            "start": 490.4,
+            "end": 492.48,
+            "text": " So three conditions are getting satisfied."
+        },
+        {
+            "start": 492.48,
+            "end": 494.12,
+            "text": " Then what it will print?"
+        },
+        {
+            "start": 494.12,
+            "end": 497.28000000000003,
+            "text": " It will print A, B or C."
+        },
+        {
+            "start": 497.28000000000003,
+            "end": 504.84000000000003,
+            "text": " So for that it is very evident that if stops at the first two conditions, so order matters."
+        },
+        {
+            "start": 504.84000000000003,
+            "end": 516.28,
+            "text": " So you cannot write A2 is greater than 40 and then A2 is greater than or equal to 80."
+        },
+        {
+            "start": 516.28,
+            "end": 518.48,
+            "text": " This you cannot write."
+        },
+        {
+            "start": 518.48,
+            "end": 527.2,
+            "text": " Otherwise it will print this as a C function as a means for 90% person it will get C grade."
+        },
+        {
+            "start": 527.2,
+            "end": 528.76,
+            "text": " It should not be there."
+        },
+        {
+            "start": 528.76,
+            "end": 533.04,
+            "text": " Whatever your first condition will get satisfied, it will stop there."
+        },
+        {
+            "start": 533.04,
+            "end": 539.28,
+            "text": " That's why if I am putting 90, then you know, let me clear this."
+        },
+        {
+            "start": 539.28,
+            "end": 544.72,
+            "text": " That's why if I put 90 as my input, then it will get satisfied here because 90 is greater"
+        },
+        {
+            "start": 544.72,
+            "end": 547.1600000000001,
+            "text": " than or equal to 80."
+        },
+        {
+            "start": 547.1600000000001,
+            "end": 555.6800000000001,
+            "text": " So it will get satisfied here and it will print A. Similarly, if I put 75, then is 75"
+        },
+        {
+            "start": 555.6800000000001,
+            "end": 557.2,
+            "text": " greater than or equal to A?"
+        },
+        {
+            "start": 557.2,
+            "end": 559.9200000000001,
+            "text": " No, then it will not satisfy the condition."
+        },
+        {
+            "start": 559.9200000000001,
+            "end": 562.48,
+            "text": " Is it greater than or equal to 60?"
+        },
+        {
+            "start": 562.48,
+            "end": 565.64,
+            "text": " Yes, then it will write B over here."
+        },
+        {
+            "start": 565.64,
+            "end": 568.64,
+            "text": " Okay, so like this you can use this formula."
+        },
+        {
+            "start": 568.64,
+            "end": 570.0,
+            "text": " This is very simple."
+        },
+        {
+            "start": 570.0,
+            "end": 572.7,
+            "text": " So now we can see according to our example."
+        },
+        {
+            "start": 572.7,
+            "end": 577.9000000000001,
+            "text": " So in example, it is showing please calculate these grades and they have given us grades"
+        },
+        {
+            "start": 577.9000000000001,
+            "end": 584.58,
+            "text": " table here and we can pick the conditions from here and we can put the conditions here."
+        },
+        {
+            "start": 584.58,
+            "end": 586.82,
+            "text": " So I will write a formula very simply here."
+        },
+        {
+            "start": 586.82,
+            "end": 589.98,
+            "text": " So what they are asking we need to calculate our grades."
+        },
+        {
+            "start": 589.98,
+            "end": 592.94,
+            "text": " So here I am writing the formula ifs."
+        },
+        {
+            "start": 592.94,
+            "end": 597.34,
+            "text": " So ifs the first condition is it should be greater than or equal to 80, then you can"
+        },
+        {
+            "start": 597.34,
+            "end": 601.94,
+            "text": " write A. So I am clicking on the exam score and I am writing."
+        },
+        {
+            "start": 601.94,
+            "end": 611.1800000000001,
+            "text": " It should be greater than or equal to 80, then please write A. Okay, this is our first"
+        },
+        {
+            "start": 611.1800000000001,
+            "end": 612.1800000000001,
+            "text": " condition."
+        },
+        {
+            "start": 612.1800000000001,
+            "end": 623.62,
+            "text": " Second condition is showing your D2 is greater than or equal to 60, then please write B."
+        },
+        {
+            "start": 623.62,
+            "end": 637.94,
+            "text": " Okay, if your grade which is exam score, if it is greater than or equal to 40, then"
+        },
+        {
+            "start": 637.94,
+            "end": 650.5,
+            "text": " please write C. If your grade which is this 65 is less than 40."
+        },
+        {
+            "start": 650.5,
+            "end": 656.22,
+            "text": " Okay, then please write fail."
+        },
+        {
+            "start": 656.22,
+            "end": 660.66,
+            "text": " Okay, and bracket complete and enter."
+        },
+        {
+            "start": 660.66,
+            "end": 662.3,
+            "text": " So it is showing B grade."
+        },
+        {
+            "start": 662.3,
+            "end": 669.62,
+            "text": " So according to our logic, it's right because 65 is greater than 60 but lesser than 80."
+        },
+        {
+            "start": 669.62,
+            "end": 674.5,
+            "text": " That's why it is showing grade as a B. If you drag it down, it will show you only 1%"
+        },
+        {
+            "start": 674.5,
+            "end": 678.5,
+            "text": " fail which is NEHA and it is showing it is lesser than 38."
+        },
+        {
+            "start": 678.5,
+            "end": 682.02,
+            "text": " Okay, it is lesser than 40 which is 38."
+        },
+        {
+            "start": 682.02,
+            "end": 683.38,
+            "text": " That's why it is showing fail."
+        },
+        {
+            "start": 683.38,
+            "end": 685.72,
+            "text": " So you can see here you can calculate it."
+        },
+        {
+            "start": 685.72,
+            "end": 688.74,
+            "text": " If you want to sort this, you can easily sort this."
+        },
+        {
+            "start": 688.74,
+            "end": 694.66,
+            "text": " Okay, just apply filter and sort is by your grade A to Z."
+        },
+        {
+            "start": 694.66,
+            "end": 700.24,
+            "text": " Okay, so you can see here it is properly map the grades."
+        },
+        {
+            "start": 700.24,
+            "end": 703.3,
+            "text": " If it is greater than 80, it is showing you AA."
+        },
+        {
+            "start": 703.3,
+            "end": 707.54,
+            "text": " If it is greater than 60 but under 80, then it is showing BB."
+        },
+        {
+            "start": 707.54,
+            "end": 713.02,
+            "text": " If it is greater than 40 and under 60, then it is going to show you CC and if it is lesser"
+        },
+        {
+            "start": 713.02,
+            "end": 715.3,
+            "text": " than 40, then it will show you fail."
+        },
+        {
+            "start": 715.3,
+            "end": 719.02,
+            "text": " Okay, according to this, you can use if condition."
+        },
+        {
+            "start": 719.02,
+            "end": 723.18,
+            "text": " Now it was very simple because it was only one positive condition."
+        },
+        {
+            "start": 723.18,
+            "end": 728.26,
+            "text": " Let's say if you have something where you want to use two conditions, both conditions"
+        },
+        {
+            "start": 728.26,
+            "end": 729.5999999999999,
+            "text": " must be satisfied."
+        },
+        {
+            "start": 729.6,
+            "end": 735.12,
+            "text": " Like in earlier example, you can see here it was like if first condition is getting"
+        },
+        {
+            "start": 735.12,
+            "end": 737.26,
+            "text": " satisfied, then we will write that."
+        },
+        {
+            "start": 737.26,
+            "end": 739.6800000000001,
+            "text": " If it is not getting satisfied, we will go to second."
+        },
+        {
+            "start": 739.6800000000001,
+            "end": 742.12,
+            "text": " If it is not getting satisfied, we will go to third."
+        },
+        {
+            "start": 742.12,
+            "end": 745.0400000000001,
+            "text": " If it is not getting satisfied, we will go to fourth, fifth, sixth."
+        },
+        {
+            "start": 745.0400000000001,
+            "end": 746.0400000000001,
+            "text": " Like this it will work."
+        },
+        {
+            "start": 746.0400000000001,
+            "end": 750.76,
+            "text": " Okay, but let's say if you want something where you should match both the criterias,"
+        },
+        {
+            "start": 750.76,
+            "end": 754.24,
+            "text": " your first condition should get satisfied and second also get satisfied."
+        },
+        {
+            "start": 754.24,
+            "end": 756.32,
+            "text": " Then and then only you will get the answer."
+        },
+        {
+            "start": 756.32,
+            "end": 762.8000000000001,
+            "text": " Then for that we will use logical operators like AND, OR and NOT."
+        },
+        {
+            "start": 762.8000000000001,
+            "end": 768.1800000000001,
+            "text": " So you can see here it is very clear that AND should be both condition must be true."
+        },
+        {
+            "start": 768.1800000000001,
+            "end": 779.0400000000001,
+            "text": " So for example, I am writing that your salary should be greater than 50k and your age should"
+        },
+        {
+            "start": 779.0400000000001,
+            "end": 786.0400000000001,
+            "text": " be greater than 18 and then only you can join my company."
+        },
+        {
+            "start": 786.76,
+            "end": 787.76,
+            "text": " So there are two conditions."
+        },
+        {
+            "start": 787.76,
+            "end": 790.1999999999999,
+            "text": " First is salary condition and second is age condition."
+        },
+        {
+            "start": 790.1999999999999,
+            "end": 791.92,
+            "text": " So for that I will use AND."
+        },
+        {
+            "start": 791.92,
+            "end": 796.3,
+            "text": " If both are right, then you can join my company."
+        },
+        {
+            "start": 796.3,
+            "end": 797.9599999999999,
+            "text": " This is very simple."
+        },
+        {
+            "start": 797.9599999999999,
+            "end": 798.9599999999999,
+            "text": " Second is OR."
+        },
+        {
+            "start": 798.9599999999999,
+            "end": 805.5999999999999,
+            "text": " OR means I do not care either your age should be 18 or your salary should be 50k."
+        },
+        {
+            "start": 805.5999999999999,
+            "end": 806.9599999999999,
+            "text": " You can join my company."
+        },
+        {
+            "start": 806.9599999999999,
+            "end": 809.3199999999999,
+            "text": " Then here the condition is OR."
+        },
+        {
+            "start": 809.3199999999999,
+            "end": 811.66,
+            "text": " One OR two."
+        },
+        {
+            "start": 811.66,
+            "end": 814.64,
+            "text": " If anything works, you can join my company."
+        },
+        {
+            "start": 814.64,
+            "end": 815.64,
+            "text": " Third is NOT."
+        },
+        {
+            "start": 815.64,
+            "end": 817.12,
+            "text": " Reverse the result."
+        },
+        {
+            "start": 817.12,
+            "end": 823.04,
+            "text": " Means this condition usually will not use anywhere because this is useless for my point"
+        },
+        {
+            "start": 823.04,
+            "end": 831.08,
+            "text": " of view because if you have IF, then you will not use NOT."
+        },
+        {
+            "start": 831.08,
+            "end": 837.64,
+            "text": " So for example, if I want to write X is greater than 10 and if it is greater than 10, then"
+        },
+        {
+            "start": 837.64,
+            "end": 839.28,
+            "text": " write TRUE."
+        },
+        {
+            "start": 839.28,
+            "end": 841.08,
+            "text": " So for example, X is my 11."
+        },
+        {
+            "start": 841.08,
+            "end": 842.8,
+            "text": " 11 is greater than 10."
+        },
+        {
+            "start": 843.24,
+            "end": 845.24,
+            "text": " Then I will write TRUE."
+        },
+        {
+            "start": 845.24,
+            "end": 854.16,
+            "text": " If X is not greater than 10, please write FALSE."
+        },
+        {
+            "start": 854.16,
+            "end": 860.56,
+            "text": " 11 is not greater than 10."
+        },
+        {
+            "start": 860.56,
+            "end": 861.56,
+            "text": " It is."
+        },
+        {
+            "start": 861.56,
+            "end": 864.04,
+            "text": " Then it will write TRUE."
+        },
+        {
+            "start": 864.04,
+            "end": 867.5999999999999,
+            "text": " Same thing it is writing, just the symbol is getting changed."
+        },
+        {
+            "start": 867.6,
+            "end": 873.52,
+            "text": " That is why I called it as useless function because if I have write, then I will try TRUE."
+        },
+        {
+            "start": 873.52,
+            "end": 877.0400000000001,
+            "text": " I do not want to write FALSE here."
+        },
+        {
+            "start": 877.0400000000001,
+            "end": 879.84,
+            "text": " So that is why I will use IF NOT NOT function."
+        },
+        {
+            "start": 879.84,
+            "end": 882.9200000000001,
+            "text": " But as it is in our syllabus, we will go through it."
+        },
+        {
+            "start": 882.9200000000001,
+            "end": 886.12,
+            "text": " We will check what examples we can solve with this."
+        },
+        {
+            "start": 886.12,
+            "end": 891.96,
+            "text": " So first condition is our AND where we will understand both condition must be true."
+        },
+        {
+            "start": 891.96,
+            "end": 896.84,
+            "text": " Both should be true and anyone should not be a false condition."
+        },
+        {
+            "start": 897.08,
+            "end": 903.44,
+            "text": " In example, if you see, IF will always use AND with IF."
+        },
+        {
+            "start": 903.44,
+            "end": 905.6800000000001,
+            "text": " Because there is no function called AND, this is conjunctions."
+        },
+        {
+            "start": 905.6800000000001,
+            "end": 907.76,
+            "text": " We will use this in formula."
+        },
+        {
+            "start": 907.76,
+            "end": 914.2800000000001,
+            "text": " For example, if A2 is greater than 50000 and B2 is greater than 2, we will give bonus or"
+        },
+        {
+            "start": 914.2800000000001,
+            "end": 915.84,
+            "text": " will not give bonus."
+        },
+        {
+            "start": 915.84,
+            "end": 918.38,
+            "text": " On this basis, we will do this thing."
+        },
+        {
+            "start": 918.38,
+            "end": 925.08,
+            "text": " Now if both condition is getting satisfied that guy is earning 60000 rupees and he is"
+        },
+        {
+            "start": 925.08,
+            "end": 927.9200000000001,
+            "text": " having experience of 3 years."
+        },
+        {
+            "start": 927.9200000000001,
+            "end": 931.44,
+            "text": " B2 should be greater than 2, 3 years, then we will give bonus."
+        },
+        {
+            "start": 931.44,
+            "end": 936.8000000000001,
+            "text": " If it is lesser than, let us say 40000 and he is having 3 years of experience, then we"
+        },
+        {
+            "start": 936.8000000000001,
+            "end": 938.72,
+            "text": " will not give him a bonus."
+        },
+        {
+            "start": 938.72,
+            "end": 943.88,
+            "text": " We will say no bonus because in both condition should get satisfied."
+        },
+        {
+            "start": 943.88,
+            "end": 946.0,
+            "text": " Here both conditions are getting satisfied."
+        },
+        {
+            "start": 946.0,
+            "end": 950.8000000000001,
+            "text": " Here only one condition is getting satisfied and second is not getting satisfied, then"
+        },
+        {
+            "start": 950.8,
+            "end": 954.24,
+            "text": " we will not write it as a bonus."
+        },
+        {
+            "start": 954.24,
+            "end": 955.64,
+            "text": " We will write as a no bonus."
+        },
+        {
+            "start": 955.64,
+            "end": 957.88,
+            "text": " We will see this on the example."
+        },
+        {
+            "start": 957.88,
+            "end": 959.3,
+            "text": " So we will see example also."
+        },
+        {
+            "start": 959.3,
+            "end": 965.12,
+            "text": " So basically bonus eligibility criteria is department should be sales and monthly sales"
+        },
+        {
+            "start": 965.12,
+            "end": 969.68,
+            "text": " should be greater than or equal to the target and the experience should be greater than"
+        },
+        {
+            "start": 969.68,
+            "end": 971.7199999999999,
+            "text": " or equal to 2."
+        },
+        {
+            "start": 971.7199999999999,
+            "end": 974.28,
+            "text": " So for that we need to write a formula."
+        },
+        {
+            "start": 974.28,
+            "end": 976.4799999999999,
+            "text": " So formula if you know, it's very easy."
+        },
+        {
+            "start": 976.48,
+            "end": 984.0,
+            "text": " So in the cell we will write if and inside that we will write and."
+        },
+        {
+            "start": 984.0,
+            "end": 986.76,
+            "text": " Now you know that your department should be sales."
+        },
+        {
+            "start": 986.76,
+            "end": 993.8000000000001,
+            "text": " So we will select the department and it should be equal to sales."
+        },
+        {
+            "start": 993.8000000000001,
+            "end": 998.1,
+            "text": " And second is monthly sale is equal to or greater than target."
+        },
+        {
+            "start": 998.1,
+            "end": 999.8000000000001,
+            "text": " So monthly sale is this."
+        },
+        {
+            "start": 999.8000000000001,
+            "end": 1004.6800000000001,
+            "text": " It should be greater than or equal to the target and the target is here."
+        },
+        {
+            "start": 1004.68,
+            "end": 1009.04,
+            "text": " So I'm clicking target here comma and the experience should be greater than or equal"
+        },
+        {
+            "start": 1009.04,
+            "end": 1010.04,
+            "text": " to 2."
+        },
+        {
+            "start": 1010.04,
+            "end": 1013.7199999999999,
+            "text": " So experience should be greater than or equal to 2."
+        },
+        {
+            "start": 1013.7199999999999,
+            "end": 1018.0799999999999,
+            "text": " Then I'm completing bracket because I have to complete this."
+        },
+        {
+            "start": 1018.0799999999999,
+            "end": 1020.0799999999999,
+            "text": " Then I'm writing here comma."
+        },
+        {
+            "start": 1020.0799999999999,
+            "end": 1021.5999999999999,
+            "text": " So let's understand what I'm doing."
+        },
+        {
+            "start": 1021.5999999999999,
+            "end": 1026.12,
+            "text": " I'm using and function so that we can use multiple condition over there."
+        },
+        {
+            "start": 1026.12,
+            "end": 1030.84,
+            "text": " So here I'm writing if the normal formula, then I'm writing and function."
+        },
+        {
+            "start": 1030.84,
+            "end": 1034.84,
+            "text": " In that our first condition is department should be sales means your department should"
+        },
+        {
+            "start": 1034.84,
+            "end": 1035.84,
+            "text": " be sales."
+        },
+        {
+            "start": 1035.84,
+            "end": 1036.84,
+            "text": " So this is your department."
+        },
+        {
+            "start": 1036.84,
+            "end": 1037.84,
+            "text": " It should be sales."
+        },
+        {
+            "start": 1037.84,
+            "end": 1039.72,
+            "text": " So here C2 should be sales."
+        },
+        {
+            "start": 1039.72,
+            "end": 1046.6,
+            "text": " Then next is E2 should be greater than or equal to F2 means your monthly sales should"
+        },
+        {
+            "start": 1046.6,
+            "end": 1050.72,
+            "text": " be greater than equal to target and large will be your experience should be greater"
+        },
+        {
+            "start": 1050.72,
+            "end": 1051.76,
+            "text": " than equal to 2."
+        },
+        {
+            "start": 1051.76,
+            "end": 1056.52,
+            "text": " So this is D2, which is your experience should be greater than or equal to 2."
+        },
+        {
+            "start": 1056.52,
+            "end": 1058.04,
+            "text": " Here I have written it."
+        },
+        {
+            "start": 1058.04,
+            "end": 1060.96,
+            "text": " So these are our conditions that we have written over here."
+        },
+        {
+            "start": 1060.96,
+            "end": 1067.08,
+            "text": " Now if you know the if formula that I am explaining here, if is equals to here you will write"
+        },
+        {
+            "start": 1067.08,
+            "end": 1074.76,
+            "text": " logical condition comma true comma false."
+        },
+        {
+            "start": 1074.76,
+            "end": 1076.22,
+            "text": " This is your condition."
+        },
+        {
+            "start": 1076.22,
+            "end": 1078.1399999999999,
+            "text": " So you can observe their formula."
+        },
+        {
+            "start": 1078.1399999999999,
+            "end": 1082.6599999999999,
+            "text": " So here we write if and and this thing till this 2."
+        },
+        {
+            "start": 1082.6599999999999,
+            "end": 1085.2,
+            "text": " This is our logical conditions."
+        },
+        {
+            "start": 1085.2,
+            "end": 1088.32,
+            "text": " So we have written here and then we need to write true and false."
+        },
+        {
+            "start": 1088.32,
+            "end": 1091.52,
+            "text": " So here we'll write something like double inverted comma."
+        },
+        {
+            "start": 1091.52,
+            "end": 1099.76,
+            "text": " We'll write yes because if bonus eligibility if he is eligible for it, then we'll write"
+        },
+        {
+            "start": 1099.76,
+            "end": 1100.92,
+            "text": " yes."
+        },
+        {
+            "start": 1100.92,
+            "end": 1104.88,
+            "text": " If it is not, then we'll write no here."
+        },
+        {
+            "start": 1104.88,
+            "end": 1106.1000000000001,
+            "text": " Now we just complete the code."
+        },
+        {
+            "start": 1106.1000000000001,
+            "end": 1110.92,
+            "text": " So I am closing this bracket because this is our logical condition and then in double"
+        },
+        {
+            "start": 1111.92,
+            "end": 1113.24,
+            "text": " I am writing here."
+        },
+        {
+            "start": 1113.24,
+            "end": 1121.24,
+            "text": " Yes comma double inverted comma no double inverted comma and then completing this."
+        },
+        {
+            "start": 1121.24,
+            "end": 1122.8000000000002,
+            "text": " So here I am missing the comma."
+        },
+        {
+            "start": 1122.8000000000002,
+            "end": 1126.5600000000002,
+            "text": " So I am giving the comma and I am clicking here and it is showing no because this guy"
+        },
+        {
+            "start": 1126.5600000000002,
+            "end": 1134.0800000000002,
+            "text": " is not eligible for the bonus because he don't have 2 years plus experience or 2 years experience"
+        },
+        {
+            "start": 1134.0800000000002,
+            "end": 1135.88,
+            "text": " greater than 2 year experience."
+        },
+        {
+            "start": 1135.88,
+            "end": 1139.96,
+            "text": " You don't have monthly salary is equal to target or greater than the target."
+        },
+        {
+            "start": 1140.0,
+            "end": 1145.48,
+            "text": " So like this I am dragging down this formula and you can see here only one person is eligible"
+        },
+        {
+            "start": 1145.48,
+            "end": 1150.92,
+            "text": " for the bonus which is Anita having 2 plus more experience or equal to or greater than"
+        },
+        {
+            "start": 1150.92,
+            "end": 1151.92,
+            "text": " 2."
+        },
+        {
+            "start": 1151.92,
+            "end": 1159.0,
+            "text": " Then you his hers there are sales monthly sales is greater than or equal to target and"
+        },
+        {
+            "start": 1159.0,
+            "end": 1161.64,
+            "text": " the department is sales."
+        },
+        {
+            "start": 1161.64,
+            "end": 1163.52,
+            "text": " Like this you can write a formula."
+        },
+        {
+            "start": 1163.52,
+            "end": 1169.24,
+            "text": " So if I go back to question it is asking us to find the eligibility for the sales employees"
+        },
+        {
+            "start": 1169.52,
+            "end": 1174.6,
+            "text": " whether they are eligible for this bonus or not."
+        },
+        {
+            "start": 1174.6,
+            "end": 1178.84,
+            "text": " For that we have 3 conditions which is sales department department should be sales."
+        },
+        {
+            "start": 1178.84,
+            "end": 1182.92,
+            "text": " Then the monthly sales should be greater than the target and third will be the experience."
+        },
+        {
+            "start": 1182.92,
+            "end": 1185.36,
+            "text": " It should be greater than equal to 2."
+        },
+        {
+            "start": 1185.36,
+            "end": 1187.64,
+            "text": " So here we have written the condition."
+        },
+        {
+            "start": 1187.64,
+            "end": 1192.92,
+            "text": " So you can see if C3 is sales which is sales department it should be sales department which"
+        },
+        {
+            "start": 1192.92,
+            "end": 1195.48,
+            "text": " is here the sales department is there."
+        },
+        {
+            "start": 1195.48,
+            "end": 1201.92,
+            "text": " Then your E3 is greater than F3 greater than or equal to F3 your E3 which is monthly sales"
+        },
+        {
+            "start": 1201.92,
+            "end": 1204.28,
+            "text": " should be greater than or equal to the target."
+        },
+        {
+            "start": 1204.28,
+            "end": 1209.16,
+            "text": " Here only one condition here only one row is there where the monthly sales is greater"
+        },
+        {
+            "start": 1209.16,
+            "end": 1213.76,
+            "text": " than the target and the last condition is experience should be greater than or equal"
+        },
+        {
+            "start": 1213.76,
+            "end": 1214.76,
+            "text": " to 2."
+        },
+        {
+            "start": 1214.76,
+            "end": 1217.88,
+            "text": " So this is greater than or equal to 2 which is 4."
+        },
+        {
+            "start": 1217.88,
+            "end": 1220.2,
+            "text": " That's why it is showing yes over here."
+        },
+        {
+            "start": 1220.2,
+            "end": 1224.14,
+            "text": " So I'll share this sheet in description you can go and practice over there."
+        },
+        {
+            "start": 1224.8000000000002,
+            "end": 1230.3400000000001,
+            "text": " So next is OR condition where your at least one condition should be true."
+        },
+        {
+            "start": 1230.3400000000001,
+            "end": 1233.1000000000001,
+            "text": " Either condition should be true."
+        },
+        {
+            "start": 1233.1000000000001,
+            "end": 1234.8200000000002,
+            "text": " Single condition should be true."
+        },
+        {
+            "start": 1234.8200000000002,
+            "end": 1240.3400000000001,
+            "text": " So the syntax is very simple OR condition 1 condition 2 condition 3 condition 4 you"
+        },
+        {
+            "start": 1240.3400000000001,
+            "end": 1250.5800000000002,
+            "text": " can write like this and example here I have given example if OR A2 is student or A2 is"
+        },
+        {
+            "start": 1250.58,
+            "end": 1254.5,
+            "text": " senior then write discount or no discount."
+        },
+        {
+            "start": 1254.5,
+            "end": 1261.98,
+            "text": " So if A2 should be student if he is student then you can give a discount if he is student"
+        },
+        {
+            "start": 1261.98,
+            "end": 1265.8999999999999,
+            "text": " but he is not senior then again also you can give you discount."
+        },
+        {
+            "start": 1265.8999999999999,
+            "end": 1271.82,
+            "text": " Because it's only one condition if the A2 is senior and not a student then also you'll"
+        },
+        {
+            "start": 1271.82,
+            "end": 1277.3,
+            "text": " get the discount but he is not student not senior then he'll not get any discount."
+        },
+        {
+            "start": 1277.3,
+            "end": 1280.06,
+            "text": " So this is very simple for the use of OR."
+        },
+        {
+            "start": 1280.54,
+            "end": 1286.3,
+            "text": " We'll see with the example here we have condition where we need to write if so let's understand"
+        },
+        {
+            "start": 1286.3,
+            "end": 1292.7,
+            "text": " the question first training required if yes if exam score is lesser than 50 then yes if"
+        },
+        {
+            "start": 1292.7,
+            "end": 1299.1399999999999,
+            "text": " experience is lesser than 1 then also he need a training."
+        },
+        {
+            "start": 1299.1399999999999,
+            "end": 1303.34,
+            "text": " Now we'll write the formula here see there are two condition if the score is lesser than"
+        },
+        {
+            "start": 1303.34,
+            "end": 1306.6599999999999,
+            "text": " 50 or the experience is lesser than 1."
+        },
+        {
+            "start": 1306.66,
+            "end": 1312.38,
+            "text": " Any of this condition is getting satisfied then he need to go to the training and the"
+        },
+        {
+            "start": 1312.38,
+            "end": 1314.02,
+            "text": " answer will be yes."
+        },
+        {
+            "start": 1314.02,
+            "end": 1319.5400000000002,
+            "text": " So here I am writing the formula if and in the under the if we are writing OR because"
+        },
+        {
+            "start": 1319.5400000000002,
+            "end": 1325.38,
+            "text": " we are using OR condition if the exam score is lesser than 50."
+        },
+        {
+            "start": 1325.38,
+            "end": 1329.5,
+            "text": " So exam score is here if it is lesser than 50."
+        },
+        {
+            "start": 1329.5,
+            "end": 1336.22,
+            "text": " I'm writing lesser than 50 comma if the experience is lesser than 1."
+        },
+        {
+            "start": 1336.22,
+            "end": 1342.66,
+            "text": " Here you can see if inside the logical condition I am writing here or E2 which is exam score"
+        },
+        {
+            "start": 1342.66,
+            "end": 1349.02,
+            "text": " is lesser than 50 and D2 which is experience is lesser than 1 then I am closing this bracket"
+        },
+        {
+            "start": 1349.02,
+            "end": 1357.18,
+            "text": " because only two conditions are then we are writing yes."
+        },
+        {
+            "start": 1357.18,
+            "end": 1363.6200000000001,
+            "text": " Otherwise we'll write no and the bracket complete."
+        },
+        {
+            "start": 1363.6200000000001,
+            "end": 1371.6200000000001,
+            "text": " So you can see here if the exam score is lesser than 50 it is 65 and the year of experience"
+        },
+        {
+            "start": 1371.6200000000001,
+            "end": 1374.44,
+            "text": " is greater than 1."
+        },
+        {
+            "start": 1374.44,
+            "end": 1377.3400000000001,
+            "text": " So none of this condition is getting satisfied."
+        },
+        {
+            "start": 1377.3400000000001,
+            "end": 1378.3400000000001,
+            "text": " So that's why no."
+        },
+        {
+            "start": 1378.3400000000001,
+            "end": 1383.54,
+            "text": " Now where we can see the exam score is lesser than 50 here you can see the lesser than 50"
+        },
+        {
+            "start": 1383.54,
+            "end": 1391.98,
+            "text": " score is here where the score is 38 and another is here which is lesser than 44."
+        },
+        {
+            "start": 1391.98,
+            "end": 1397.02,
+            "text": " These two rows are there where the exam score is lesser than 50."
+        },
+        {
+            "start": 1397.02,
+            "end": 1402.94,
+            "text": " So you can see here 38 is the value where the first condition is getting satisfied where"
+        },
+        {
+            "start": 1402.94,
+            "end": 1408.46,
+            "text": " exam score is less than 50 and 44 is there where exam score is less than 50."
+        },
+        {
+            "start": 1408.46,
+            "end": 1413.58,
+            "text": " So according to our OR formula if any of these two condition is getting satisfied then"
+        },
+        {
+            "start": 1413.58,
+            "end": 1414.58,
+            "text": " you should write yes."
+        },
+        {
+            "start": 1414.58,
+            "end": 1419.74,
+            "text": " So here you can see the condition is getting satisfied but you can see the experience here"
+        },
+        {
+            "start": 1419.74,
+            "end": 1423.6200000000001,
+            "text": " is 0.5 years which is lesser than 1 both are condition getting satisfied."
+        },
+        {
+            "start": 1423.6200000000001,
+            "end": 1427.3400000000001,
+            "text": " If both conditions are getting satisfied still it will write yes."
+        },
+        {
+            "start": 1427.3400000000001,
+            "end": 1432.42,
+            "text": " If any of this condition is getting satisfied still it will write yes."
+        },
+        {
+            "start": 1432.42,
+            "end": 1436.98,
+            "text": " Here none of the condition is getting satisfied that's why it is writing no."
+        },
+        {
+            "start": 1436.98,
+            "end": 1438.26,
+            "text": " That's very easy."
+        },
+        {
+            "start": 1439.06,
+            "end": 1440.98,
+            "text": " Any of this condition should get satisfied."
+        },
+        {
+            "start": 1440.98,
+            "end": 1443.66,
+            "text": " So this is the use of OR conjunction."
+        },
+        {
+            "start": 1443.66,
+            "end": 1445.98,
+            "text": " Now next is NOT."
+        },
+        {
+            "start": 1445.98,
+            "end": 1447.26,
+            "text": " NOT is reverse the result."
+        },
+        {
+            "start": 1447.26,
+            "end": 1450.7,
+            "text": " So whatever result you want it will reverse it."
+        },
+        {
+            "start": 1450.7,
+            "end": 1457.34,
+            "text": " Either condition should be true and NOT is the condition where if NOT A2 is greater than"
+        },
+        {
+            "start": 1457.34,
+            "end": 1463.66,
+            "text": " 18 then NOT eligible and if it is greater than 18 then it's eligible."
+        },
+        {
+            "start": 1463.66,
+            "end": 1470.38,
+            "text": " So simply for example if I am writing if and if I am writing A2 is greater than 18"
+        },
+        {
+            "start": 1470.38,
+            "end": 1472.5800000000002,
+            "text": " so I will write here eligible."
+        },
+        {
+            "start": 1472.5800000000002,
+            "end": 1477.1000000000001,
+            "text": " If it is not then I will NOT NOT eligible."
+        },
+        {
+            "start": 1477.1000000000001,
+            "end": 1480.94,
+            "text": " So this is the reverse by using the NOT function."
+        },
+        {
+            "start": 1480.94,
+            "end": 1487.14,
+            "text": " There is no that much applications in the data analytics or data science but we will"
+        },
+        {
+            "start": 1487.14,
+            "end": 1488.8200000000002,
+            "text": " use this function multiple times."
+        },
+        {
+            "start": 1488.8200000000002,
+            "end": 1492.38,
+            "text": " Now we will solve this question using the example."
+        },
+        {
+            "start": 1492.38,
+            "end": 1495.5,
+            "text": " So here the question is non-sales employees."
+        },
+        {
+            "start": 1495.5,
+            "end": 1499.94,
+            "text": " If the department is not sales then write false."
+        },
+        {
+            "start": 1499.94,
+            "end": 1504.9,
+            "text": " So question is here where non-sales employees we need to find true if the department is"
+        },
+        {
+            "start": 1504.9,
+            "end": 1508.98,
+            "text": " not sales and if it is sales then it should be false."
+        },
+        {
+            "start": 1508.98,
+            "end": 1524.02,
+            "text": " So here we will write if NOT the department is equals to sales, if NOT department is equals"
+        },
+        {
+            "start": 1524.02,
+            "end": 1532.78,
+            "text": " to sales then we will write here true or we will write false."
+        },
+        {
+            "start": 1532.78,
+            "end": 1536.02,
+            "text": " See this is the sales department."
+        },
+        {
+            "start": 1536.02,
+            "end": 1538.42,
+            "text": " See true if the department is not the sales."
+        },
+        {
+            "start": 1538.8600000000001,
+            "end": 1541.0600000000002,
+            "text": " So this is not the sales."
+        },
+        {
+            "start": 1541.0600000000002,
+            "end": 1547.8200000000002,
+            "text": " It is the sales that's why it is writing the false and if you will get confused again I"
+        },
+        {
+            "start": 1547.8200000000002,
+            "end": 1557.38,
+            "text": " want to tell you true true if the department is not the sales true if the department is"
+        },
+        {
+            "start": 1557.38,
+            "end": 1562.22,
+            "text": " not the sales true if the department is not the sales true if the department is not the"
+        },
+        {
+            "start": 1562.22,
+            "end": 1569.1000000000001,
+            "text": " sales true if the department is not the sales but if it is sales then you should write false"
+        },
+        {
+            "start": 1569.1000000000001,
+            "end": 1571.9,
+            "text": " you should write false you should write false."
+        },
+        {
+            "start": 1571.9,
+            "end": 1578.34,
+            "text": " So what it is saying non-sales employees yes false false true true."
+        },
+        {
+            "start": 1578.34,
+            "end": 1582.18,
+            "text": " So whether these employees are non-sales employees yes true."
+        },
+        {
+            "start": 1582.18,
+            "end": 1583.82,
+            "text": " So HR is not sales employees."
+        },
+        {
+            "start": 1583.82,
+            "end": 1585.5,
+            "text": " Okay that's why you are writing true."
+        },
+        {
+            "start": 1585.5,
+            "end": 1591.14,
+            "text": " So this is the useless function that I will call always because NOT is not using anywhere."
+        },
+        {
+            "start": 1591.14,
+            "end": 1593.74,
+            "text": " So we will use if and we will close this thing."
+        },
+        {
+            "start": 1593.74,
+            "end": 1595.38,
+            "text": " Now next function is if error."
+        },
+        {
+            "start": 1595.38,
+            "end": 1600.38,
+            "text": " So if error is very easy function where you are using this function to replace errors"
+        },
+        {
+            "start": 1600.38,
+            "end": 1606.3000000000002,
+            "text": " like this one div divided by 0 this is na and the value."
+        },
+        {
+            "start": 1606.3000000000002,
+            "end": 1609.8600000000001,
+            "text": " So this is the function that you will use to handle the errors."
+        },
+        {
+            "start": 1609.8600000000001,
+            "end": 1612.42,
+            "text": " So that you will get the clean output."
+        },
+        {
+            "start": 1612.42,
+            "end": 1615.6200000000001,
+            "text": " Like for example syntax if error."
+        },
+        {
+            "start": 1615.6200000000001,
+            "end": 1618.5,
+            "text": " Here you will write value and value if error."
+        },
+        {
+            "start": 1618.5,
+            "end": 1620.98,
+            "text": " That I will explain you what is this."
+        },
+        {
+            "start": 1621.82,
+            "end": 1628.54,
+            "text": " Then example if error a by 2 is 0 then you will write here 0."
+        },
+        {
+            "start": 1628.54,
+            "end": 1635.34,
+            "text": " So if b2 is 0 let's say anything is divided by 0 it will show na."
+        },
+        {
+            "start": 1635.34,
+            "end": 1637.66,
+            "text": " So instead of na it will show 0."
+        },
+        {
+            "start": 1637.66,
+            "end": 1643.54,
+            "text": " So this is the user formula commonly used in VLOOKUP, XLOOKUP, division formula and"
+        },
+        {
+            "start": 1643.54,
+            "end": 1645.3,
+            "text": " data cleaning dashboards."
+        },
+        {
+            "start": 1645.3,
+            "end": 1647.02,
+            "text": " So we will use this in dashboards."
+        },
+        {
+            "start": 1647.02,
+            "end": 1650.38,
+            "text": " So here is the question we will solve this question and we will get to know how we can"
+        },
+        {
+            "start": 1651.38,
+            "end": 1653.94,
+            "text": " use the if error function."
+        },
+        {
+            "start": 1653.94,
+            "end": 1660.6200000000001,
+            "text": " For example create sales ratio we need to create a sales ratio here where numerator"
+        },
+        {
+            "start": 1660.6200000000001,
+            "end": 1663.1000000000001,
+            "text": " will be target and denominator will be monthly sales."
+        },
+        {
+            "start": 1663.1000000000001,
+            "end": 1670.3000000000002,
+            "text": " So basically we will divide target by monthly sales and I am writing here this is our sales"
+        },
+        {
+            "start": 1670.3000000000002,
+            "end": 1673.8000000000002,
+            "text": " ratio and I am dragging it down."
+        },
+        {
+            "start": 1673.8000000000002,
+            "end": 1676.46,
+            "text": " So it will show me this error div."
+        },
+        {
+            "start": 1676.46,
+            "end": 1678.1200000000001,
+            "text": " So I do not want this error."
+        },
+        {
+            "start": 1678.1200000000001,
+            "end": 1679.6200000000001,
+            "text": " So for that what I will do."
+        },
+        {
+            "start": 1679.86,
+            "end": 1683.62,
+            "text": " If you know the if error formula then you can simply go to if error."
+        },
+        {
+            "start": 1683.62,
+            "end": 1686.1799999999998,
+            "text": " I will show here value."
+        },
+        {
+            "start": 1686.1799999999998,
+            "end": 1689.06,
+            "text": " So whatever value you want to do."
+        },
+        {
+            "start": 1689.06,
+            "end": 1695.4599999999998,
+            "text": " So I want to get a ratio of target divided by monthly sales."
+        },
+        {
+            "start": 1695.4599999999998,
+            "end": 1699.62,
+            "text": " Then I will give comma here because if it is showing value then this is the value that"
+        },
+        {
+            "start": 1699.62,
+            "end": 1705.26,
+            "text": " I am looking to calculate and if the value is showing error then what I need to write"
+        },
+        {
+            "start": 1705.26,
+            "end": 1707.08,
+            "text": " I will write 0."
+        },
+        {
+            "start": 1707.08,
+            "end": 1710.52,
+            "text": " This is the comma and I am clicking enter."
+        },
+        {
+            "start": 1710.52,
+            "end": 1712.4399999999998,
+            "text": " And then I am getting dragging it down."
+        },
+        {
+            "start": 1712.4399999999998,
+            "end": 1715.1999999999998,
+            "text": " See here instead of div it is showing 0."
+        },
+        {
+            "start": 1715.1999999999998,
+            "end": 1717.6799999999998,
+            "text": " So I am doing this thing."
+        },
+        {
+            "start": 1717.6799999999998,
+            "end": 1721.96,
+            "text": " So you can see here 1.4, 1.9, 1.6 everything is 0."
+        },
+        {
+            "start": 1721.96,
+            "end": 1724.24,
+            "text": " So division was showing some error."
+        },
+        {
+            "start": 1724.24,
+            "end": 1728.4399999999998,
+            "text": " We are eliminating those errors by using if error formula."
+        },
+        {
+            "start": 1728.4399999999998,
+            "end": 1729.8799999999999,
+            "text": " If error formula is simple."
+        },
+        {
+            "start": 1729.8799999999999,
+            "end": 1732.76,
+            "text": " If error you need to write."
+        },
+        {
+            "start": 1732.76,
+            "end": 1734.6,
+            "text": " Then you need to calculate value."
+        },
+        {
+            "start": 1734.6,
+            "end": 1740.28,
+            "text": " For example I need to calculate target divided by sales then I am writing that."
+        },
+        {
+            "start": 1740.28,
+            "end": 1742.56,
+            "text": " Then I am giving comma and I am giving 0."
+        },
+        {
+            "start": 1742.56,
+            "end": 1746.6399999999999,
+            "text": " If it is showing error then it will put 0."
+        },
+        {
+            "start": 1746.6399999999999,
+            "end": 1749.24,
+            "text": " And then I am dragging it down."
+        },
+        {
+            "start": 1749.24,
+            "end": 1752.1399999999999,
+            "text": " So this is the 0."
+        },
+        {
+            "start": 1752.1399999999999,
+            "end": 1760.3999999999999,
+            "text": " So in this way you can simply write your formulas and you can get whatever you want and this"
+        },
+        {
+            "start": 1760.4,
+            "end": 1769.64,
+            "text": " will be the end of our this lecture where we have learnt if, ifs and or not error."
+        },
+        {
+            "start": 1769.64,
+            "end": 1774.96,
+            "text": " If we are using for single condition, if we have multiple conditions we will use ifs and"
+        },
+        {
+            "start": 1774.96,
+            "end": 1778.0400000000002,
+            "text": " we will use for satisfy all the conditions."
+        },
+        {
+            "start": 1778.0400000000002,
+            "end": 1779.76,
+            "text": " All condition must be true."
+        },
+        {
+            "start": 1779.76,
+            "end": 1783.96,
+            "text": " Then we will use or where any one condition should be true."
+        },
+        {
+            "start": 1783.96,
+            "end": 1786.5600000000002,
+            "text": " Then not is reverse the logic."
+        },
+        {
+            "start": 1786.56,
+            "end": 1790.8,
+            "text": " There is no logic behind or not but sometimes it may be useful."
+        },
+        {
+            "start": 1790.8,
+            "end": 1792.9199999999998,
+            "text": " And last will be error and link."
+        },
+        {
+            "start": 1792.9199999999998,
+            "end": 1798.52,
+            "text": " So if you want to clean your errors then you will use the if error formula."
+        },
+        {
+            "start": 1798.52,
+            "end": 1805.04,
+            "text": " If it is showing div divided by 0 or it is showing error or whatever it is showing or"
+        },
+        {
+            "start": 1805.04,
+            "end": 1810.86,
+            "text": " it is showing na then you will use this if error formula."
+        },
+        {
+            "start": 1810.86,
+            "end": 1812.8,
+            "text": " So I hope you understood this thing."
+        },
+        {
+            "start": 1812.8,
+            "end": 1815.2,
+            "text": " Now in next lecture we will learn about match function."
+        },
+        {
+            "start": 1815.2,
+            "end": 1822.72,
+            "text": " I know you have learnt about VLOOKUP and XLOOKUP."
+        },
+        {
+            "start": 1822.72,
+            "end": 1827.3,
+            "text": " So in next lecture we will learn about the match functions where we will be understanding"
+        },
+        {
+            "start": 1827.3,
+            "end": 1834.72,
+            "text": " about index, match, regex extract, regex place, regex text and regex match."
+        },
+        {
+            "start": 1834.72,
+            "end": 1837.68,
+            "text": " So these are the match functions that we are going to learn in next lecture."
+        },
+        {
+            "start": 1837.68,
+            "end": 1842.74,
+            "text": " So I hope you have understood each and everything about conjunctions and conditions."
+        },
+        {
+            "start": 1842.74,
+            "end": 1845.8,
+            "text": " So in next lecture we are going to see about match functions."
+        },
+        {
+            "start": 1845.8,
+            "end": 1851.16,
+            "text": " In match functions there are multiple functions like match, index, then we are going to see"
+        },
+        {
+            "start": 1851.16,
+            "end": 1855.24,
+            "text": " about regex extract, regex match, regex text."
+        },
+        {
+            "start": 1855.24,
+            "end": 1859.76,
+            "text": " These are multiple conditions and the functions that we are going to see in next lecture."
+        },
+        {
+            "start": 1859.76,
+            "end": 1863.84,
+            "text": " So whatever you have learnt please go to the description, download the sheets and practice"
+        },
+        {
+            "start": 1863.84,
+            "end": 1864.84,
+            "text": " it."
+        },
+        {
+            "start": 1864.84,
+            "end": 1867.4,
+            "text": " In next lecture we will learn about match functions."
+        },
+        {
+            "start": 1867.4,
+            "end": 1868.4,
+            "text": " So see you in next lecture."
+        },
+        {
+            "start": 1868.4,
+            "end": 1869.4,
+            "text": " Thank you for watching this video."
+        },
+        {
+            "start": 1869.4,
+            "end": 1869.42,
+            "text": " Thank you."
+        }
+    ],
+    "text": " Hello everyone, hope you are doing well. Welcome to Data Analytics full course 2026 and this is the lecture 6. In this lecture we are going to see condition and conjections. So if you don't know about conditions and conjections, this lecture is very important for you guys. Here there will be total 6 functions, 3 will be conditions and 3 will be conjections. And in conjections there will be 3 functions, first is AND, second is OR and third is NOT. So without wasting time, let's get started. Whenever you are going to learn, all the sheets and PPD are given in today's description, you can go there and download and practice. So here we are going to see conditions and conjections. Now what is the conditions and conjections in Excel? Let's understand that. So here are few functions that I have written. First is IF, then IFS, AND, OR, NOT, IFERROR. Now if you see, it's very simple. Conditions are IF, IFS and this one IF. And this is the combination, this IF and IFERROR is a combination IF and ERROR. So this is called as again condition, I am calling it as a condition and this AND and OR and NOT, these are conjections. If you are from engineering background, you must know about the gate, AND gate, OR gate, NOT gate, these kind of things are there that we are going to learn in this lecture. So these are the conditions and conjections in Excel. Now let's jump to our first function which is IF. Now what is IF? IF is very basic conditioning checking. We will check some condition, we can see what is the IF, check condition and returns one value if it is true or a false. So we will write some formula where we have the syntax you can see here. If we will put one condition over here, this is nothing, logical test means condition. We will put this condition here and value will check, if the value is true, then it will rewrite true. If the value is false, then it will write false. And true and false, instead of true and false, we can use our customized text also. For example, in true I want to write pass, in false I want to write fail. So I can write these things. One more thing that if you want to write something here, for example, in true I want to write pass, then you can write pass in double inverted comma and if you want instead of fails you want to write fail, then you can write fail over here in double inverted comma. It will print according to your text. Now let's understand how we can use this on Excel. Before that I am going to tell you this example on PPD, then we are going to go to Excel. So this is first is if that we have used this if formula, then there will be a bracket. Then as I told you, this will be a condition that we are putting. So here you can see a2 must be greater than or equal to 40. So this is our condition. If it is getting satisfied, then first value will be true. So it will print pass. If the value is not greater than 40, then it will print fail. Whatever fail we have written here, it will print fail. So if for example, if the value is 55, which is shown here, it will write pass and if the value is 32, it will write fail because 55 is greater than 40 and 32 is lesser than 40. So this is our condition that needs to be satisfied. Now we are going to see this thing on Excel sheet. So here we have data which is student ID, name, department and exam score and result. And the question is create a column result which is result and the condition is pass if the exam score is greater than 40 and fail if it is lesser than 40. So we will create a formula, we will write the formula over here. For that what we will enter? We will enter is equals to if. And in logical test, we will put our condition which is if exam score which is this cell, I am selecting this, if it is equal to or greater than, so I am writing is greater than or equal to 40, comma, here it should be pass, or it will be a fail percent. The result will be fail. Like this you can write your formula and complete the bracket. And if you put this, it will show you pass. Like this simply you can drop down your formula and it will show only one person failed which is 104 Neha having 38 marks which has failed this exam. So according to this, you can write your if formula in this thing. If I have already covered, so I am just giving you a brief because other conjunctions and the multiple condition thing that we are going to learn is totally based on the if function. So like this you can do your if function, you can write the if function. If I tell you again, then simply what you need to do, you need to just put your formula here is equals to and you write if, give open bracket, then you can select your logical test. Logical test is saying if your exam score is greater than or equal to 40, then please write pass. If it is not greater than or equal to 40, then write fail. So I am writing fail over here, bracket complete and this is your result. And you can simply drag it down and it will show you your result. So in this way you can write your if function. Simply what you need to do, just write if bracket open, then you write a logical test which was our if A2 is greater than 40, greater than equal to 40, write pass in double inverted comma or you can write fail double inverted comma and your bracket complete. You can see same formula we have written here and this will be the output. So this is the use of if. Now let us go to ifs. Now if and ifs is same. In if you will have one condition, in ifs you have multiple condition. If you remember in first of our function which is if, there was a logical condition here and it was like A2 should be greater than equal to 40, then write pass. Same thing, but here what we will do, we will add one more condition. condition will be like and A2 should be greater than or equal to 30, then you write fail. Whatever it is like I am giving example. Similar example I have written here. So whenever you will get the grades, this formula will be used. So here you can see that A2 if it is greater than or equal to 80, then write A. If A2 is greater than or equal to 60, write B. If A2 is greater than or equal to 40, write C. If A2 is lesser than 40, then write fail. Now you will say for example I have 90. I have 90. So 90 is greater than or equal to 80. This condition is getting satisfied. Is greater than 60? Yes, it is greater than 40. So three conditions are getting satisfied. Then what it will print? It will print A, B or C. So for that it is very evident that if stops at the first two conditions, so order matters. So you cannot write A2 is greater than 40 and then A2 is greater than or equal to 80. This you cannot write. Otherwise it will print this as a C function as a means for 90% person it will get C grade. It should not be there. Whatever your first condition will get satisfied, it will stop there. That's why if I am putting 90, then you know, let me clear this. That's why if I put 90 as my input, then it will get satisfied here because 90 is greater than or equal to 80. So it will get satisfied here and it will print A. Similarly, if I put 75, then is 75 greater than or equal to A? No, then it will not satisfy the condition. Is it greater than or equal to 60? Yes, then it will write B over here. Okay, so like this you can use this formula. This is very simple. So now we can see according to our example. So in example, it is showing please calculate these grades and they have given us grades table here and we can pick the conditions from here and we can put the conditions here. So I will write a formula very simply here. So what they are asking we need to calculate our grades. So here I am writing the formula ifs. So ifs the first condition is it should be greater than or equal to 80, then you can write A. So I am clicking on the exam score and I am writing. It should be greater than or equal to 80, then please write A. Okay, this is our first condition. Second condition is showing your D2 is greater than or equal to 60, then please write B. Okay, if your grade which is exam score, if it is greater than or equal to 40, then please write C. If your grade which is this 65 is less than 40. Okay, then please write fail. Okay, and bracket complete and enter. So it is showing B grade. So according to our logic, it's right because 65 is greater than 60 but lesser than 80. That's why it is showing grade as a B. If you drag it down, it will show you only 1% fail which is NEHA and it is showing it is lesser than 38. Okay, it is lesser than 40 which is 38. That's why it is showing fail. So you can see here you can calculate it. If you want to sort this, you can easily sort this. Okay, just apply filter and sort is by your grade A to Z. Okay, so you can see here it is properly map the grades. If it is greater than 80, it is showing you AA. If it is greater than 60 but under 80, then it is showing BB. If it is greater than 40 and under 60, then it is going to show you CC and if it is lesser than 40, then it will show you fail. Okay, according to this, you can use if condition. Now it was very simple because it was only one positive condition. Let's say if you have something where you want to use two conditions, both conditions must be satisfied. Like in earlier example, you can see here it was like if first condition is getting satisfied, then we will write that. If it is not getting satisfied, we will go to second. If it is not getting satisfied, we will go to third. If it is not getting satisfied, we will go to fourth, fifth, sixth. Like this it will work. Okay, but let's say if you want something where you should match both the criterias, your first condition should get satisfied and second also get satisfied. Then and then only you will get the answer. Then for that we will use logical operators like AND, OR and NOT. So you can see here it is very clear that AND should be both condition must be true. So for example, I am writing that your salary should be greater than 50k and your age should be greater than 18 and then only you can join my company. So there are two conditions. First is salary condition and second is age condition. So for that I will use AND. If both are right, then you can join my company. This is very simple. Second is OR. OR means I do not care either your age should be 18 or your salary should be 50k. You can join my company. Then here the condition is OR. One OR two. If anything works, you can join my company. Third is NOT. Reverse the result. Means this condition usually will not use anywhere because this is useless for my point of view because if you have IF, then you will not use NOT. So for example, if I want to write X is greater than 10 and if it is greater than 10, then write TRUE. So for example, X is my 11. 11 is greater than 10. Then I will write TRUE. If X is not greater than 10, please write FALSE. 11 is not greater than 10. It is. Then it will write TRUE. Same thing it is writing, just the symbol is getting changed. That is why I called it as useless function because if I have write, then I will try TRUE. I do not want to write FALSE here. So that is why I will use IF NOT NOT function. But as it is in our syllabus, we will go through it. We will check what examples we can solve with this. So first condition is our AND where we will understand both condition must be true. Both should be true and anyone should not be a false condition. In example, if you see, IF will always use AND with IF. Because there is no function called AND, this is conjunctions. We will use this in formula. For example, if A2 is greater than 50000 and B2 is greater than 2, we will give bonus or will not give bonus. On this basis, we will do this thing. Now if both condition is getting satisfied that guy is earning 60000 rupees and he is having experience of 3 years. B2 should be greater than 2, 3 years, then we will give bonus. If it is lesser than, let us say 40000 and he is having 3 years of experience, then we will not give him a bonus. We will say no bonus because in both condition should get satisfied. Here both conditions are getting satisfied. Here only one condition is getting satisfied and second is not getting satisfied, then we will not write it as a bonus. We will write as a no bonus. We will see this on the example. So we will see example also. So basically bonus eligibility criteria is department should be sales and monthly sales should be greater than or equal to the target and the experience should be greater than or equal to 2. So for that we need to write a formula. So formula if you know, it's very easy. So in the cell we will write if and inside that we will write and. Now you know that your department should be sales. So we will select the department and it should be equal to sales. And second is monthly sale is equal to or greater than target. So monthly sale is this. It should be greater than or equal to the target and the target is here. So I'm clicking target here comma and the experience should be greater than or equal to 2. So experience should be greater than or equal to 2. Then I'm completing bracket because I have to complete this. Then I'm writing here comma. So let's understand what I'm doing. I'm using and function so that we can use multiple condition over there. So here I'm writing if the normal formula, then I'm writing and function. In that our first condition is department should be sales means your department should be sales. So this is your department. It should be sales. So here C2 should be sales. Then next is E2 should be greater than or equal to F2 means your monthly sales should be greater than equal to target and large will be your experience should be greater than equal to 2. So this is D2, which is your experience should be greater than or equal to 2. Here I have written it. So these are our conditions that we have written over here. Now if you know the if formula that I am explaining here, if is equals to here you will write logical condition comma true comma false. This is your condition. So you can observe their formula. So here we write if and and this thing till this 2. This is our logical conditions. So we have written here and then we need to write true and false. So here we'll write something like double inverted comma. We'll write yes because if bonus eligibility if he is eligible for it, then we'll write yes. If it is not, then we'll write no here. Now we just complete the code. So I am closing this bracket because this is our logical condition and then in double I am writing here. Yes comma double inverted comma no double inverted comma and then completing this. So here I am missing the comma. So I am giving the comma and I am clicking here and it is showing no because this guy is not eligible for the bonus because he don't have 2 years plus experience or 2 years experience greater than 2 year experience. You don't have monthly salary is equal to target or greater than the target. So like this I am dragging down this formula and you can see here only one person is eligible for the bonus which is Anita having 2 plus more experience or equal to or greater than 2. Then you his hers there are sales monthly sales is greater than or equal to target and the department is sales. Like this you can write a formula. So if I go back to question it is asking us to find the eligibility for the sales employees whether they are eligible for this bonus or not. For that we have 3 conditions which is sales department department should be sales. Then the monthly sales should be greater than the target and third will be the experience. It should be greater than equal to 2. So here we have written the condition. So you can see if C3 is sales which is sales department it should be sales department which is here the sales department is there. Then your E3 is greater than F3 greater than or equal to F3 your E3 which is monthly sales should be greater than or equal to the target. Here only one condition here only one row is there where the monthly sales is greater than the target and the last condition is experience should be greater than or equal to 2. So this is greater than or equal to 2 which is 4. That's why it is showing yes over here. So I'll share this sheet in description you can go and practice over there. So next is OR condition where your at least one condition should be true. Either condition should be true. Single condition should be true. So the syntax is very simple OR condition 1 condition 2 condition 3 condition 4 you can write like this and example here I have given example if OR A2 is student or A2 is senior then write discount or no discount. So if A2 should be student if he is student then you can give a discount if he is student but he is not senior then again also you can give you discount. Because it's only one condition if the A2 is senior and not a student then also you'll get the discount but he is not student not senior then he'll not get any discount. So this is very simple for the use of OR. We'll see with the example here we have condition where we need to write if so let's understand the question first training required if yes if exam score is lesser than 50 then yes if experience is lesser than 1 then also he need a training. Now we'll write the formula here see there are two condition if the score is lesser than 50 or the experience is lesser than 1. Any of this condition is getting satisfied then he need to go to the training and the answer will be yes. So here I am writing the formula if and in the under the if we are writing OR because we are using OR condition if the exam score is lesser than 50. So exam score is here if it is lesser than 50. I'm writing lesser than 50 comma if the experience is lesser than 1. Here you can see if inside the logical condition I am writing here or E2 which is exam score is lesser than 50 and D2 which is experience is lesser than 1 then I am closing this bracket because only two conditions are then we are writing yes. Otherwise we'll write no and the bracket complete. So you can see here if the exam score is lesser than 50 it is 65 and the year of experience is greater than 1. So none of this condition is getting satisfied. So that's why no. Now where we can see the exam score is lesser than 50 here you can see the lesser than 50 score is here where the score is 38 and another is here which is lesser than 44. These two rows are there where the exam score is lesser than 50. So you can see here 38 is the value where the first condition is getting satisfied where exam score is less than 50 and 44 is there where exam score is less than 50. So according to our OR formula if any of these two condition is getting satisfied then you should write yes. So here you can see the condition is getting satisfied but you can see the experience here is 0.5 years which is lesser than 1 both are condition getting satisfied. If both conditions are getting satisfied still it will write yes. If any of this condition is getting satisfied still it will write yes. Here none of the condition is getting satisfied that's why it is writing no. That's very easy. Any of this condition should get satisfied. So this is the use of OR conjunction. Now next is NOT. NOT is reverse the result. So whatever result you want it will reverse it. Either condition should be true and NOT is the condition where if NOT A2 is greater than 18 then NOT eligible and if it is greater than 18 then it's eligible. So simply for example if I am writing if and if I am writing A2 is greater than 18 so I will write here eligible. If it is not then I will NOT NOT eligible. So this is the reverse by using the NOT function. There is no that much applications in the data analytics or data science but we will use this function multiple times. Now we will solve this question using the example. So here the question is non-sales employees. If the department is not sales then write false. So question is here where non-sales employees we need to find true if the department is not sales and if it is sales then it should be false. So here we will write if NOT the department is equals to sales, if NOT department is equals to sales then we will write here true or we will write false. See this is the sales department. See true if the department is not the sales. So this is not the sales. It is the sales that's why it is writing the false and if you will get confused again I want to tell you true true if the department is not the sales true if the department is not the sales true if the department is not the sales true if the department is not the sales true if the department is not the sales but if it is sales then you should write false you should write false you should write false. So what it is saying non-sales employees yes false false true true. So whether these employees are non-sales employees yes true. So HR is not sales employees. Okay that's why you are writing true. So this is the useless function that I will call always because NOT is not using anywhere. So we will use if and we will close this thing. Now next function is if error. So if error is very easy function where you are using this function to replace errors like this one div divided by 0 this is na and the value. So this is the function that you will use to handle the errors. So that you will get the clean output. Like for example syntax if error. Here you will write value and value if error. That I will explain you what is this. Then example if error a by 2 is 0 then you will write here 0. So if b2 is 0 let's say anything is divided by 0 it will show na. So instead of na it will show 0. So this is the user formula commonly used in VLOOKUP, XLOOKUP, division formula and data cleaning dashboards. So we will use this in dashboards. So here is the question we will solve this question and we will get to know how we can use the if error function. For example create sales ratio we need to create a sales ratio here where numerator will be target and denominator will be monthly sales. So basically we will divide target by monthly sales and I am writing here this is our sales ratio and I am dragging it down. So it will show me this error div. So I do not want this error. So for that what I will do. If you know the if error formula then you can simply go to if error. I will show here value. So whatever value you want to do. So I want to get a ratio of target divided by monthly sales. Then I will give comma here because if it is showing value then this is the value that I am looking to calculate and if the value is showing error then what I need to write I will write 0. This is the comma and I am clicking enter. And then I am getting dragging it down. See here instead of div it is showing 0. So I am doing this thing. So you can see here 1.4, 1.9, 1.6 everything is 0. So division was showing some error. We are eliminating those errors by using if error formula. If error formula is simple. If error you need to write. Then you need to calculate value. For example I need to calculate target divided by sales then I am writing that. Then I am giving comma and I am giving 0. If it is showing error then it will put 0. And then I am dragging it down. So this is the 0. So in this way you can simply write your formulas and you can get whatever you want and this will be the end of our this lecture where we have learnt if, ifs and or not error. If we are using for single condition, if we have multiple conditions we will use ifs and we will use for satisfy all the conditions. All condition must be true. Then we will use or where any one condition should be true. Then not is reverse the logic. There is no logic behind or not but sometimes it may be useful. And last will be error and link. So if you want to clean your errors then you will use the if error formula. If it is showing div divided by 0 or it is showing error or whatever it is showing or it is showing na then you will use this if error formula. So I hope you understood this thing. Now in next lecture we will learn about match function. I know you have learnt about VLOOKUP and XLOOKUP. So in next lecture we will learn about the match functions where we will be understanding about index, match, regex extract, regex place, regex text and regex match. So these are the match functions that we are going to learn in next lecture. So I hope you have understood each and everything about conjunctions and conditions. So in next lecture we are going to see about match functions. In match functions there are multiple functions like match, index, then we are going to see about regex extract, regex match, regex text. These are multiple conditions and the functions that we are going to see in next lecture. So whatever you have learnt please go to the description, download the sheets and practice it. In next lecture we will learn about match functions. So see you in next lecture. Thank you for watching this video. Thank you."
+}

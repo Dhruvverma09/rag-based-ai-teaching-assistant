@@ -1,19 +1,26 @@
-Based on the provided video subtitle chunks, here's what I found:
+Okay, let's locate the content related to Excel based on the provided subtitle chunks.
 
-**Excel Content:**
+You are asking about content taught using Excel.
 
-*   **Video:** The video containing chunk 53 and 54.
-*   **Timestamps:**
-    *   Chunk 53 starts at 220.3 seconds: Mentions "Excel sheet".
-    *   Chunk 54 starts at 223.5 seconds: Describes data (student ID, name, department, exam score, result) which is likely to be used for Excel analysis tasks.
-*   **Content:** The instructor is demonstrating or about to demonstrate data analysis using data presented in an Excel sheet.
+Here is the relevant information:
 
-**SQL Content:**
+1.  **Chunk ID: 41**
+    *   **Video Title:** Where we taught about excel
+    *   **Video Number:** (Not specified in the provided chunks)
+    *   **Start Time:** 167.68 seconds
+    *   **End Time:** 172.14 seconds
+    *   **Text:** "Before that I am going to tell you this example on PPD, then we are going to go to Excel."
+    *   **Content:** This chunk indicates the transition from Power BI (PPD - likely Power Query/Power Pivot) to Excel. This is the first mention of moving to Excel within this video.
 
-*   **Video:** Not specified in the provided chunks.
-*   **Timestamps:** No chunks explicitly mention SQL.
-*   **Content:** Based on the provided chunks, no specific SQL content is mentioned or demonstrated.
+2.  **Chunk ID: 53**
+    *   **Video Title:** Where we taught about excel
+    *   **Video Number:** (Not specified in the provided chunks)
+    *   **Start Time:** 220.3 seconds
+    *   **End Time:** 223.5 seconds
+    *   **Text:** "Now we are going to see this thing on Excel sheet."
+    *   **Content:** This chunk confirms that the video titled "Where we taught about excel" contains content demonstrating something on an Excel sheet.
 
-**Recommendation:**
+**Summary:**
+The video titled **"Where we taught about excel"** contains content related to Excel. This is mentioned starting around the 2:47 mark (chunk 41) when transitioning from Power BI, and further demonstrated around the 3:40 mark (chunk 53).
 
-If you want to see content related to Excel, you should watch the video containing chunk 53 (starting at 220.3 seconds) and chunk 54 (starting at 223.5 seconds). For SQL content, please check other videos in the course as it's not covered in the provided subtitle chunks.
+If you are looking for specific Excel features or techniques demonstrated within this video, please provide more details, and I can help you find more precise locations if available.
